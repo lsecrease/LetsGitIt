@@ -16,4 +16,8 @@ ReactDOM.render(
       <Search />
     </App>
   </Provider>
-  , document.querySelector('.app'));
+  , document.querySelector('app'));
+  
+  
+  
+  //document.querySelector('.app'));
