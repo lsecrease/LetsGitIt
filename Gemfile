@@ -30,6 +30,8 @@ gem 'bootstrap-sass'
 gem 'virtus'
 gem 'octokit'
 
+gem 'dotenv-rails', :groups => [:development, :test]
+
 
 # Omniauth Gems #
 gem 'omniauth-facebook'
