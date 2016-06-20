@@ -23,7 +23,7 @@ function list(repos) {
             </div>
             <h3 className="panel-title">{repo.full_name}</h3>
             <p className="level">{repo.stargazers_count}</p>
-            <p><img src="languages.png" className="icon" />{repo.language}</p>
+            <p><img src="language.png" className="icon" />{repo.language}</p>
           </div>
         </div>
       </div>
