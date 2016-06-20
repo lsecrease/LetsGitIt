@@ -22,8 +22,8 @@ function list(repos) {
             <div className="img-wrapper">
             </div>
             <h3 className="panel-title">{repo.full_name}</h3>
-            <p className="level">{repo.stargazers_count}</p>
-            <p><img src="language.png" className="icon" />{repo.language}</p>
+            <p className="level">{repo.stargazers_count} Stars</p>
+            <p><img src="language.png" className="icon" />  {repo.language}</p>
           </div>
         </div>
       </div>

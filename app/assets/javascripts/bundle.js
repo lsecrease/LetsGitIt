@@ -23710,12 +23710,14 @@
 	          _react2.default.createElement(
 	            "p",
 	            { className: "level" },
-	            repo.stargazers_count
+	            repo.stargazers_count,
+	            " Stars"
 	          ),
 	          _react2.default.createElement(
 	            "p",
 	            null,
 	            _react2.default.createElement("img", { src: "language.png", className: "icon" }),
+	            "  ",
 	            repo.language
 	          )
 	        )
